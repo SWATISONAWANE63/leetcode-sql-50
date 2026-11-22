@@ -5,7 +5,7 @@ public:
         int n=s.size();
         for(char c :s){
             if(c=='b'){
-                seenB=true;
+                seenB=true; //"aaaa"
             }else if(seenB){
                 return false;
             }
